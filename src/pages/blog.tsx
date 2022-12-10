@@ -6,17 +6,17 @@ function Blog() {
     <div>
       <Navbar />
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-4xl">
+        <div className="max-w-xl mb-5 md:mx-auto text-center lg:max-w-4xl">
           <div className="mb-4">
             <a
               href="/"
               aria-label="Article"
-              className="inline-block max-w-lg text-3xl font-semibold leading-none tracking-tight text-black transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-5xl"
+              className="inline-block  max-w-lg text-3xl font-semibold leading-none tracking-tight text-black transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-5xl"
             >
               Addomprehian
             </a>
           </div>
-          <p className="text-base text-gray-700 md:text-lg">
+          <p className="text-base text-gray-700 md:text-lg text-justify">
             Addompreh is a synonym of food which in it essence means you can not
             live without food. the art of healthy eating has alway being a
             minority occupation,health is the objective for food consumption and

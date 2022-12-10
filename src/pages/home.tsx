@@ -15,6 +15,11 @@ function Home() {
                   <h2 className="max-w-lg mb-6 text-center sm:text-left text-5xl font-semibold tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl sm:leading-none bigsect underlined underlined--thin">
                     Personal Chef Experience
                   </h2>
+                  {/* <img
+                    className="line mb-6 mx-auto lg:mx-0"
+                    src="https://i.postimg.cc/ZRdtVH1K/title-line-2.png"
+                    alt=""
+                  /> */}
                   <p className="max-w-xl mb-4 font-normal text-sm text-white md:text-sm lg:text-base text-center sm:text-left">
                     Accra traffic jam is ready, can you stop the one that’s
                     missing it stereo ? Explore our saucy or dry flavors ranging
