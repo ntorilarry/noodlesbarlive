@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "../components/navbar";
+import Noodles1 from "../assets/noodles1.gif";
+import Noodles2 from "../assets/noodles2.gif"
+import Noodles3 from "../assets/noodles3.gif"
 
 function About() {
   return (
@@ -12,13 +15,15 @@ function About() {
               About Us
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
-              Noodle bar is virtual fast food chain, building 24hours
+              Noodles bar is virtual fast food chain, building 24hours
               sustainable meals by connecting people their food adventure and
               making an avenue for food entrepreneurs to own their own brand. We
               are self-help community.
             </p>
           </div>
-          <div className="w-full h-full py-48 bg-gray-200"></div>
+          <div className="w-full h-full">
+            <img src={Noodles1} alt="" />
+          </div>
         </div>
         <div className="grid flex-col-reverse items-center mb-24 grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           <div className="order-none md:order-2">
@@ -33,7 +38,9 @@ function About() {
               that you are what you eat.
             </p>
           </div>
-          <div className="w-full h-full py-48 bg-gray-200"></div>
+          <div className="w-full h-full">
+          <img src={Noodles2} alt="" />
+          </div>
         </div>
         <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           <div>
@@ -42,10 +49,13 @@ function About() {
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
               We offer our clients a complete range of catering options, ranging
-              from breakfast buffets to gala dinners and quirky street food bites to corporate dining.
+              from breakfast buffets to gala dinners and quirky street food
+              bites to corporate dining.
             </p>
           </div>
-          <div className="w-full h-full py-48 bg-gray-200"></div>
+          <div className="w-full h-full">
+          <img src={Noodles3} alt="" />
+          </div>
         </div>
       </section>
     </div>
