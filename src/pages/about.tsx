@@ -9,29 +9,41 @@ function About() {
         <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           <div>
             <h2 className="mb-4 text-2xl font-semibold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
-              About
+              About Us
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
-              Noodle bar is virtual fast food chain, building 24hours sustainable
-              meals by connecting people their food adventure and making an
-              avenue for food entrepreneurs to own their own brand. We are self-help community.
+              Noodle bar is virtual fast food chain, building 24hours
+              sustainable meals by connecting people their food adventure and
+              making an avenue for food entrepreneurs to own their own brand. We
+              are self-help community.
             </p>
           </div>
           <div className="w-full h-full py-48 bg-gray-200"></div>
         </div>
-        <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+        <div className="grid flex-col-reverse items-center mb-24 grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           <div className="order-none md:order-2">
-            <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
-              Decide how you integrate Payments
+            <h2 className="mb-4 text-2xl font-semibold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
+              Our Story
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
-              Love to code? Next to our ready-made and free plugins you can use
-              our expansive yet simple API; decide how you integrate Payments
-              and build advanced and reliable products yourself from scratch.
+              It was at Legon Hall in University of Ghana with the sound of dib
+              Afrobeat pounding lazily relentlessly in the background that
+              noodles bar was born. The names of our meals moments and
+              experience. Storytelling through food artistry, with the notion
+              that you are what you eat.
             </p>
-            <a href="#" className="w-full btn btn-dark btn-lg sm:w-auto">
-              Learn More
-            </a>
+          </div>
+          <div className="w-full h-full py-48 bg-gray-200"></div>
+        </div>
+        <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div>
+            <h2 className="mb-4 text-2xl font-semibold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
+              Our Food
+            </h2>
+            <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
+              We offer our clients a complete range of catering options, ranging
+              from breakfast buffets to gala dinners and quirky street food bites to corporate dining.
+            </p>
           </div>
           <div className="w-full h-full py-48 bg-gray-200"></div>
         </div>
