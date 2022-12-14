@@ -50,7 +50,7 @@ function About() {
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
               We offer our clients a complete range of catering options, ranging
               from breakfast buffets to gala dinners and quirky street food
-              bites to corporate dining.
+              bites to corporate dining and blah blah y’all heard this shit before
             </p>
           </div>
           <div className="w-full h-full">

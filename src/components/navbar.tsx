@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
+import "../styles/navbar.css"
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,44 +22,44 @@ function Navbar() {
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-              <Link
+              <NavLink
                 to="/mission"
                 aria-label="Our product"
                 title="Our product"
-                className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-normal text-sm tracking-wide text-gray-700 navlink"
               >
                 Our Mission
-              </Link>
+              </NavLink>
             </li> 
             <li>
-              <Link
+              <NavLink
                 to="/about-us"
                 aria-label="Our product"
                 title="Our product"
-                className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-normal text-sm tracking-wide text-gray-700 navlink"
               >
                 About Us
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/meals"
                 aria-label="Our product"
                 title="Our product"
-                className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-normal text-sm tracking-wide text-gray-700 navlink"
               >
                Meals
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/blog"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-normal text-sm tracking-wide text-gray-700 navlink"
               >
                 Blog
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <div className="lg:hidden">
@@ -120,44 +121,44 @@ function Navbar() {
                   <nav>
                     <ul className="space-y-4">
                     <li>
-                        <Link
+                        <NavLink
                           to="/mission"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal text-sm tracking-wide text-gray-700 navlink"
                         >
                          Our Mission
-                        </Link>
+                        </NavLink>
                       </li>
                       <li>
-                        <Link
+                        <NavLink
                           to="/about-us"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal text-sm tracking-wide text-gray-700 navlink"
                         >
                          About Us
-                        </Link>
+                        </NavLink>
                       </li>
                       <li>
-                        <Link
+                        <NavLink
                           to="/meals"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal text-sm tracking-wide text-gray-700 navlink"
                         >
                          Meals
-                        </Link>
+                        </NavLink>
                       </li>
                       <li>
-                        <Link
+                        <NavLink
                           to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-normal text-sm tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal text-sm tracking-wide text-gray-700 navlink"
                         >
                       Blog
-                        </Link>
+                        </NavLink>
                       </li>
                     </ul>
                   </nav>
