@@ -8,9 +8,9 @@ function Blog() {
       <Navbar />
       <div className="max-w-screen-lg mx-auto">
         <main className="mt-10">
-          <div className="mb-4 md:mb-0 w-full mx-auto relative">
+          <div className="relative w-full mx-auto mb-4 md:mb-0">
             <div className="px-4 lg:px-0">
-              <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
+              <h2 className="text-4xl font-semibold leading-tight text-gray-800">
                 ADDOMPREHIAN
               </h2>
               <p className="py-2 mx-auto text-[#00a14b] inline-flex items-center justify-center mb-2">
@@ -19,13 +19,13 @@ function Blog() {
             </div>
             <img
               src={BlogImg}
-              className="w-full object-cover lg:rounded"
+              className="object-cover w-full lg:rounded"
               style={{ height: "28em" }}
               alt=""
             />
           </div>
           <div className="flex flex-col lg:flex-row lg:space-x-12">
-            <div className="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full">
+            <div className="w-full px-4 mt-12 leading-relaxed text-gray-700 lg:px-0 text-md">
               <p className="pb-6">
                 Addompreh is a synonym of food which in it essence means you can
                 not live without food. the art of healthy eating has alway being
@@ -51,7 +51,7 @@ function Blog() {
                 accompanied by scholars and food critics which led to Ghanaian
                 fast meals evolution.
               </p>
-              <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              <div className="pl-4 mb-6 italic border-l-4 border-gray-500 rounded">
                 Addompreh is synonym of food , particularly Ghanaian foods,
                 making anything with them. History resurrect the future in
                 resuscitate.
@@ -67,7 +67,7 @@ function Blog() {
                 vegetables black and white and I know the kings of Akuapeman,
                 And i quote God thereof.
               </p>
-              {/* <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">
+              {/* <h2 className="mt-4 mb-4 text-2xl font-semibold text-gray-800">
                 Uneasy barton seeing remark happen his has
               </h2>
               <p className="pb-6">
