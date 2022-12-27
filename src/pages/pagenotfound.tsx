@@ -3,33 +3,26 @@ import React from "react";
 function Pagenotfound() {
   return (
     <div>
-      <section className="px-4 py-24 mx-auto max-w-7xl">
-        <div className="grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-32">
-          <div>
-            <p className="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase">
-              Error 404
+      <section className="flex items-center h-[100vh] p-16 bg-white text-gray-100">
+        <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+          <div className="max-w-md text-center">
+            <h2 className="mb-8 font-extrabold text-9xl text-gray-600">
+              <span className="sr-only">Error</span>404
+            </h2>
+            <p className="text-2xl text-black font-semibold md:text-3xl">
+              Sorry, we couldn't find this page.
             </p>
-            <h1 className="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-left text-gray-900 md:text-4xl">
-              Oops! The page you're looking for isn't here.
-            </h1>
-            <p className="mb-5 text-base text-left text-gray-800 md:text-xl">
-              You might have the wrong address, or the page may have moved.
+            <p className="mt-4 mb-8 text-gray-800">
+              But dont worry, you can find plenty of other things on our
+              homepage.
             </p>
             <a
+              rel="noopener noreferrer"
               href="/"
-              className="w-full mb-2 btn btn-lg btn-light sm:w-auto sm:mb-0"
+              className="px-8 py-3 font-semibold rounded bg-violet-400 text-gray-900"
             >
               Back to homepage
             </a>
-            <a
-              href="#"
-              className="w-full mb-2 btn btn-lg btn-white sm:w-auto sm:mb-0"
-            >
-              Contact us
-            </a>
-          </div>
-          <div>
-            <div className="w-full h-full py-48 bg-gray-200 rounded-lg"></div>
           </div>
         </div>
       </section>
