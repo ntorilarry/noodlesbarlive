@@ -8,6 +8,7 @@ import Pagenotfound from "./pages/pagenotfound";
 import Blog from "./pages/blog";
 import Meals from "./pages/meals";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import GoogleTagManager from "./components/GoogleTag";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <link rel="canonical" href="https://www.noodlesbar.live" />
       </Helmet>
       <div className="App">
+        <GoogleTagManager/>
         <Routes>
           {/* Main Routes */}
           <Route path="/">
