@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/home";
-import { Navigate, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import Mission from "./pages/mission";
 import About from "./pages/about";
 import Pagenotfound from "./pages/pagenotfound";
@@ -29,8 +29,8 @@ function App() {
         <Routes>
           {/* Main Routes */}
           <Route path="/">
-            <Route index element={<Navigate replace to="home" />} />
-            <Route path="home" element={<Home />} />
+            {/* <Route index element={<Navigate replace to="home" />} /> */}
+            <Route path="/" element={<Home />} />
             <Route path="mission" element={<Mission />} />
             <Route path="about-us" element={<About />} />
             <Route path="meals" element={<Meals />} />
