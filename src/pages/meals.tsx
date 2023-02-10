@@ -23,7 +23,7 @@ function Meals() {
         <div className="w-full h-full">
           <video
             className="object-cover object-center w-full"
-            src={Mealvideo}
+            src="https://www.noodlesbar.live/static/media/meal.80128052063369e9103e.mp4"
             autoPlay
             loop
             controls
