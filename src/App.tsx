@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/home";
-import {Route, Routes } from "react-router-dom";
-import Mission from "./pages/mission";
+import { Route, Routes } from "react-router-dom";
+import Mission from "./components/mission";
 import About from "./pages/about";
 import Pagenotfound from "./pages/pagenotfound";
 import Blog from "./pages/blog";
@@ -25,16 +25,14 @@ function App() {
         <link rel="canonical" href="https://www.noodlesbar.live" />
       </Helmet>
       <div className="App">
-        <GoogleTagManager/>
+        <GoogleTagManager />
         <Routes>
           {/* Main Routes */}
-          <Route path="/">
-            {/* <Route index element={<Navigate replace to="home" />} /> */}
+          <Route>
             <Route path="/" element={<Home />} />
-            <Route path="mission" element={<Mission />} />
-            <Route path="about-us" element={<About />} />
-            <Route path="meals" element={<Meals />} />
-            <Route path="blog" element={<Blog />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/meals" element={<Meals />} />
+            <Route path="/blog" element={<Blog />} />
           </Route>
 
           {/* Not found */}
