@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import BlogImg from "../assets/blogpic.jpeg";
+import Footer from "../components/Footer";
 
 function Blog() {
   return (
@@ -73,6 +74,7 @@ function Blog() {
           </div>
         </main>
       </div>
+      <Footer/>
     </div>
   );
 }
