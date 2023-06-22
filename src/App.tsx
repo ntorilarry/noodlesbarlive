@@ -18,9 +18,7 @@ function App() {
         <title>Noodlesbar</title>
         <meta
           name="description"
-          content="Accra traffic jam is ready, can you stop the one that’s
-          missing it stereo ? Explore our saucy or dry flavors ranging
-          from mid-to-hot, in doice or savory. Browse our menu"
+          content="Noodles bar is a franchise of virtual cafeteria delivering 24 hours sustainable meal,personal chef experience. Live food."
         />
         <link rel="canonical" href="https://www.noodlesbar.live" />
       </Helmet>

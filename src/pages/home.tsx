@@ -33,7 +33,7 @@ function Home() {
                     data-aos="fade-right"
                     data-aos-delay="1000"
                     data-aos-once="true"
-                    className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl font-ph"
+                    className="text-5xl font-semibold leading-tight text-white lg:text-6xl"
                   >
                     Personal Chef Experience
                   </h1>
@@ -41,7 +41,7 @@ function Home() {
                     data-aos="fade-right"
                     data-aos-delay="1200"
                     data-aos-once="true"
-                    className="mt-2 text-md text-white sm:mt-4"
+                    className="mt-2 py-2 text-md font-light text-white sm:mt-4"
                   >
                     Accra traffic jam is ready, can you stop the one that’s
                     missing it stereo ? Explore our saucy or dry flavors ranging
@@ -54,7 +54,7 @@ function Home() {
                       data-aos-delay="1300"
                       data-aos-once="true"
                       href="/meals"
-                      className="relative rounded px-5 py-2.5 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
+                      className="relative rounded px-5 py-4 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
                     >
                       <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
                       <span className="relative">Browse our Meals</span>
