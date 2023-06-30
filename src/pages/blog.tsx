@@ -58,8 +58,8 @@ function Blog() {
                 resuscitate.
               </div>
               <p className="pb-6">
-                The term Addompreh from Akuapim, happiness, refer to
-                the enthusiasm for everything related to food. Think food think
+                The term Addompreh from Akuapim, happiness, refer to the
+                enthusiasm for everything related to food. Think food think
                 Addompreh Food + mind + action = result
               </p>
 
@@ -68,13 +68,68 @@ function Blog() {
                 vegetables black and white and I know the kings of Akuapeman,
                 And i quote God thereof.
               </p>
-             
             </div>
-      
+          </div>
+          <h2 className="text-3xl font-semibold leading-tight text-gray-800">
+            Creative Vegetables
+          </h2>
+          <div className="flex flex-col lg:flex-row lg:space-x-12">
+            <div className="w-full px-4 mt-6 leading-relaxed text-gray-700 lg:px-0 text-md">
+              <p className="pb-6">
+                When we talk about food trends and how they benefit the
+                consumer, it keeps evolving for better and the latest trends as
+                it relate to health and nutrition is the ‘complete food
+                category’ where you can get all the nutrition in one prepped
+                meal, is a concept that has been around for sometime and is loud
+                in the sport nutrition industry and is expected to continue to
+                grow 150% by 2030, study says.
+              </p>
+              <p className="pb-6">
+                And if in-patients could have access to medical tailored meals
+                in one year, we would have about a million and half
+                hospitalization avoid and that will translate into 13.43 billion
+                dollars saved. The meals are for really sick person and that’s
+                about 6% of the population but that 6% is responsible for 50% of
+                our healthcare cost so if these people can get access this
+                tailored meals, it will be a game changer I would say. The
+                hunger hormones that tells the brain to feel hungry levels rise
+                and tell the brain to eat.
+              </p>
+              <p className="pb-6">
+                And understanding the modern consumption trends that
+                marijuana(weed) has entered the Health phase as consumers
+                interest has shifted from physical to mental. also clearly due
+                to the covid pandemic depression rate has tripled over the
+                period and the younger generation think the future is
+                frightening.
+              </p>
+
+              <p className="pb-6">
+                 Throughout history, the wealthiest of society would display
+                their wealth through great banquets and feasts. In the same way
+                art and music would signify "the good life," so is food. Food
+                was about living well and enjoying life. In reality though, the
+                cost of the feast or the rarity of the ingredient matters
+                little.  Anyone who has enjoyed the sweet taste of a fresh peach
+                or a hot bowl of delicious soup on a showery day knows the
+                simple, peaceful joy food can bring. When you eat something that
+                just tastes so perfect that it literally reminds you to stop and
+                appreciate all you have in your life - that is the unique joy
+                and magic of good food.
+              </p>
+
+              <p className="pb-6">
+                The emergence of this food culture which is happening largely
+                among millennials who care deeply about the experience of eating
+                and what chefs are doing all over the world is what can I create
+                new with the old stuff, Food thinking is the process of
+                imaginary eaten meals for ego satisfaction in every situation.
+              </p>
+            </div>
           </div>
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
