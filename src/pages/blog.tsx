@@ -70,7 +70,7 @@ function Blog() {
               </p>
             </div>
           </div>
-          <h2 className="text-3xl font-semibold leading-tight text-gray-800">
+          <h2 className="px-4 lg:px-0 text-3xl font-semibold leading-tight text-gray-800">
             Creative Vegetables
           </h2>
           <div className="flex flex-col lg:flex-row lg:space-x-12">
