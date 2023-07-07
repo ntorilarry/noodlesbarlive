@@ -1,4 +1,4 @@
-import Navbar from "../components/_Navbar";
+import Navbar from "../components/Navbar";
 import Akora from "../assets/akora.jpeg";
 import AccraTraffic from "../assets/accratraffic.jpeg";
 import AfiTower from "../assets/afitower.jpeg";
@@ -12,7 +12,7 @@ import Markola from "../assets/markola.jpeg";
 import OlonkaBelly from "../assets/olonkabelly.jpeg";
 import Trinity from "../assets/trinity.jpeg";
 import Wokspicy from "../assets/wokspicy.jpeg";
-import Footer from "../components/_Footer";
+import Footer from "../components/Footer";
 
 const products = [
   {

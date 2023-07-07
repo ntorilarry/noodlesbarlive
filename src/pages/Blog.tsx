@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/_Navbar";
+import Navbar from "../components/Navbar";
 import BlogImg from "../assets/blogpic.jpeg";
-import Footer from "../components/_Footer";
+import Footer from "../components/Footer";
 
 function Blog() {
   return (
