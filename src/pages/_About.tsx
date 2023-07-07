@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/_Navbar";
 import Noodles1 from "../assets/noodles1.gif";
 import Noodles2 from "../assets/noodles2.gif";
 import Noodles3 from "../assets/noodles3.gif";
-import Footer from "../components/Footer";
+import Footer from "../components/_Footer";
 
 function About() {
   return (

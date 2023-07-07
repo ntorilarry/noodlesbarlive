@@ -2,13 +2,13 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "../components/Footer";
+import Footer from "../components/_Footer";
 
-import Mission from "../components/Mission";
-import Features from "../components/Features";
+import Mission from "../components/_Mission";
+import Features from "../components/_Features";
 import Pattern from "../assets/noodlesbgg.webp";
 import { LuChefHat } from "react-icons/lu";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/_Navbar";
 import RandomImage from "../components/RandomImage";
 
 function Home() {
@@ -75,7 +75,7 @@ function Home() {
                 data-aos-once="true"
                 className="mt-auto"
               >
-               <RandomImage/>
+                <RandomImage />
               </div>
             </div>
           </div>
