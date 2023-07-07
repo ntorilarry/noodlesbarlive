@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
-import Heropic from "../assets/heropic.png";
+
 import Mission from "../components/Mission";
 import Features from "../components/Features";
 import Pattern from "../assets/noodlesbgg.webp";
