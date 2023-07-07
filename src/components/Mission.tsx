@@ -4,7 +4,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 export default function Mission() {
   return (
     <section className="px-8 py-12 md:py-18">
-      <div className="mx-auto max-w-7xl space-y-24 md:space-y-36">
+      <div className="mx-auto max-w-6xl lg:max-w-7xl space-y-24 md:space-y-36">
         <div className="flex flex-col items-center justify-center gap-10 lg:flex-row-reverse">
           <div className="max-w-2xl space-y-6 text-center lg:text-left">
             <span className="inline-flex items-center rounded-full border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm">
@@ -27,7 +27,7 @@ export default function Mission() {
             </p>
           </div>
 
-          <div className="max-w-lg bg-[#00a14b]">
+          <div className="max-w-sm bg-[#00a14b]">
             {/* <img
               src={Missionpic}
               alt=""

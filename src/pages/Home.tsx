@@ -14,6 +14,7 @@ import RandomImage from "../components/RandomImage";
 function Home() {
   useEffect(() => {
     AOS.init();
+    AOS.refresh();
   }, []);
   return (
     <div>
