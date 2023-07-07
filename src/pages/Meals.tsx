@@ -23,6 +23,13 @@ const products = [
     imageSrc: AccraTraffic,
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    calories: "743g",
+    fat: "12g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "967h",
+    ingredients:
+      "Shredded beef, earthy spring onions, crushed garlic, roasted green beans",
   },
   {
     id: 2,
@@ -32,6 +39,13 @@ const products = [
     imageSrc: Trinity,
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
+    calories: "743g",
+    fat: "12g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "755g",
+    ingredients:
+      "diced carrots, chopped green paper, Roasted corn, chopped bell pepper, shredded chicken",
   },
   {
     id: 3,
@@ -41,6 +55,12 @@ const products = [
     imageSrc: Akora,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
+    calories: "837g",
+    fat: "13g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "638g",
+    ingredients: "Braised cucumber, squeezed lime, fish fingers",
   },
   {
     id: 4,
@@ -50,6 +70,13 @@ const products = [
     imageSrc: BiggestStick,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "649g",
+    fat: "12g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "533g",
+    ingredients:
+      "toast shrimps, shredded kale, spicy asparagus, sliced lettuce",
   },
   {
     id: 5,
@@ -59,6 +86,13 @@ const products = [
     imageSrc: Akorfa,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "653g",
+    fat: "14g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "563g",
+    ingredients:
+      "shredded fish, diced carrots, chopped greens, sliced coriander, shredded kale",
   },
   {
     id: 6,
@@ -68,6 +102,12 @@ const products = [
     imageSrc: Asasewa,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "752g",
+    fat: "14g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "543g",
+    ingredients: "chopped leeks, Pouches egg, spicy kale, diced carrots",
   },
   {
     id: 7,
@@ -77,6 +117,13 @@ const products = [
     imageSrc: Wokspicy,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "543g",
+    fat: "11g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "684g",
+    ingredients:
+      "chopped celery, roasted asparagus, chicken flicks, sliced chili pepper, crushed garlic",
   },
   {
     id: 8,
@@ -86,6 +133,13 @@ const products = [
     imageSrc: GoldCoast,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "643g",
+    fat: "13g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "636g",
+    ingredients:
+      "shredded chicken, pan-seared broccoli, diced tomatoes, chopped bell peppers",
   },
   {
     id: 9,
@@ -95,6 +149,12 @@ const products = [
     imageSrc: Legon,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "865h",
+    fat: "11g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "533g",
+    ingredients: "shredded beef, roasted corn, diced carrots, chopped celery",
   },
   {
     id: 10,
@@ -104,6 +164,13 @@ const products = [
     imageSrc: Markola,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "895g",
+    fat: "12g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "548g",
+    ingredients:
+      "crushed garlic, chopped chicken, spicy mushroom, sliced cabbage",
   },
   {
     id: 11,
@@ -113,6 +180,13 @@ const products = [
     imageSrc: Agotime,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "854g",
+    fat: "12h",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "634g",
+    ingredients:
+      "Seeded pea, Chopped spring onion, crushed garlic, shredded chicken, diced greens",
   },
   {
     id: 12,
@@ -122,6 +196,13 @@ const products = [
     imageSrc: OlonkaBelly,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "543g",
+    fat: "12g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "573g",
+    ingredients:
+      "spiced sausage, chopped spring onions, diced carrots, sliced lettuce",
   },
   {
     id: 13,
@@ -131,6 +212,13 @@ const products = [
     imageSrc: AfiTower,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    calories: "613g",
+    fat: "13g",
+    potassium: "38mg",
+    carbohydrates: "25g",
+    protein: "871g",
+    ingredients:
+      "spicy chili, slices spinach, diced sausage, chopped asparagus",
   },
   // More products...
 ];
@@ -145,12 +233,62 @@ export default function Meals() {
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <a key={product.id} href={product.href} className="group">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+              <div className="relative aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="h-48 w-full object-cover object-center group-hover:opacity-75"
+                  className="h-64 w-full object-cover object-center group-hover:opacity-75"
                 />
+                <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#00a14b] opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+                  <div className="flex items-center justify-between">
+                    <dt className="text-sm px-1 text-white font-bold text-text">
+                      Calories
+                    </dt>
+                    <dd className="text-sm px-1 text-white font-normal text-heading">
+                      {product.calories}
+                    </dd>
+                  </div>
+
+                  <div className="flex items-center justify-between">
+                    <dt className="text-sm px-1 text-white font-bold text-text">
+                      Fat
+                    </dt>
+                    <dd className="text-sm px-1 text-white font-normal text-heading">
+                      {" "}
+                      {product.fat}
+                    </dd>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <dt className="text-sm px-1 text-white font-bold text-text">
+                      Potassium
+                    </dt>
+                    <dd className="text-sm px-1 text-white font-normal text-heading">
+                      {product.potassium}
+                    </dd>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <dt className="text-sm px-1 text-white font-bold text-text">
+                      Carbohydrates
+                    </dt>
+                    <dd className="text-sm px-1 text-white font-normal text-heading">
+                      {product.carbohydrates}
+                    </dd>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <dt className="text-sm px-1 text-white font-bold text-text">
+                      Protein
+                    </dt>
+                    <dd className="text-sm px-1 text-white font-normal text-heading">
+                      {product.protein}
+                    </dd>
+                  </div>
+                  <h1 className="text-sm px-1 text-white font-bold text-center underline text-text">
+                    Ingredients
+                  </h1>
+                  <span className="text-sm px-4 text-white font-normal text-heading text-center">
+                    {product.ingredients}
+                  </span>
+                </div>
               </div>
               <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
               <p className="mt-1 text-lg font-medium text-gray-900">
