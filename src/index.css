@@ -11,6 +11,7 @@
   @layer base {
     * {
       font-family: "Trap";
+      overflow-x: hidden;
     }
   }
   
