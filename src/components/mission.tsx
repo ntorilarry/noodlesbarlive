@@ -1,5 +1,4 @@
 import { ShieldCheckIcon } from "@heroicons/react/outline";
-import Missionpic from "../assets/carbon-neutrality.webp";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Mission() {
