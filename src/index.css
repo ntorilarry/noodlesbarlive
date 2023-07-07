@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
     * {
       @apply font-[Poppins]
     }
     
+  } */
+  @layer base {
+    * {
+      font-family: "Trap";
+    }
   }
-
+  
   
   .navlink.active{
     border-bottom: 2px solid #00a14b;

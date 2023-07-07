@@ -1,15 +1,12 @@
-import {
-  TagIcon,
-  ShieldCheckIcon,
-  LightBulbIcon,
-} from "@heroicons/react/outline";
-import Missionpic from "../assets/carbon-neutrality.png"
+import { ShieldCheckIcon } from "@heroicons/react/outline";
+import Missionpic from "../assets/carbon-neutrality.webp";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Mission() {
   return (
     <section className="px-8 py-12 md:py-18">
-      <div className="mx-auto max-w-6xl space-y-24 md:space-y-36">
-        <div className="flex flex-col items-center justify-center gap-6 lg:flex-row-reverse">
+      <div className="mx-auto max-w-7xl space-y-24 md:space-y-36">
+        <div className="flex flex-col items-center justify-center gap-10 lg:flex-row-reverse">
           <div className="max-w-2xl space-y-6 text-center lg:text-left">
             <span className="inline-flex items-center rounded-full border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm">
               <ShieldCheckIcon className="mr-1 h-5 w-5" />
@@ -31,11 +28,18 @@ export default function Mission() {
             </p>
           </div>
 
-          <div className="max-w-lg">
-            <img
+          <div className="max-w-lg bg-[#00a14b]">
+            {/* <img
               src={Missionpic}
               alt=""
               className="w-full"
+            /> */}
+            <Player
+              src="https://assets2.lottiefiles.com/packages/lf20_97qaNFtHun.json"
+              className="player"
+              loop
+              autoplay
+              // style={{ height: '250px', width: '250px' }}
             />
           </div>
         </div>

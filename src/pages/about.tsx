@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Noodles1 from "../assets/noodles1.gif";
 import Noodles2 from "../assets/noodles2.gif";
 import Noodles3 from "../assets/noodles3.gif";

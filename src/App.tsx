@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
-import Mission from "./components/mission";
-import About from "./pages/about";
-import Pagenotfound from "./pages/pagenotfound";
-import Blog from "./pages/blog";
-import Meals from "./pages/meals";
+import Mission from "./components/Mission";
+import About from "./pages/About";
+import Pagenotfound from "./pages/Pagenotfound";
+import Blog from "./pages/Blog";
+import Meals from "./pages/Meals";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./components/GoogleTag";
 

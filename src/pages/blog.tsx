@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import BlogImg from "../assets/blogpic.jpeg";
 import Footer from "../components/Footer";
 
@@ -70,10 +70,10 @@ function Blog() {
               </p>
             </div>
           </div>
-           <div className="px-4 lg:px-0">
-          <h2 className="text-3xl font-semibold leading-tight text-gray-800">
-            Creative Vegetables
-          </h2>
+          <div className="px-4 lg:px-0">
+            <h2 className="text-3xl font-semibold leading-tight text-gray-800">
+              Creative Vegetables
+            </h2>
           </div>
           <div className="flex flex-col lg:flex-row lg:space-x-12">
             <div className="w-full px-4 mt-6 leading-relaxed text-gray-700 lg:px-0 text-md">
