@@ -288,12 +288,14 @@ export default function Meals() {
                   <span className="text-sm px-4 text-white font-normal text-heading text-center">
                     {product.ingredients}
                   </span>
+                  <a className="mt-2 px-8 py-1 text-white rounded-full border-2 border-white hover:bg-amber-600 duration-300" href="tel:+233557679404">Call</a>
                 </div>
               </div>
               <h3 className="mt-4 text-lg text-gray-700">{product.name}</h3>
               <p className="mt-1 text-sm font-medium text-gray-900">
                 {product.price}
               </p>
+           
             </a>
           ))}
         </div>
