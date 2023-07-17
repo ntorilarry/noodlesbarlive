@@ -82,7 +82,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <Features />
+      {/* <Features /> */}
       <Mission />
       <Footer />
     </div>
