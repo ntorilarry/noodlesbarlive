@@ -43,7 +43,7 @@ function Home() {
                     data-aos-once="true"
                     className="text-5xl mt-4 font-extrabold text-white lg:text-6xl"
                   >
-                    The Key to Tasty Satisfaction
+                    We believe in the emotional power of food.
                   </h1>
                   <p
                     data-aos="fade-right"
@@ -53,7 +53,7 @@ function Home() {
                   >
                     Accra traffic jam is ready, can you stop the one that’s
                     missing it stereo ? Explore our saucy or dry flavors ranging
-                    from mid-to-hot, in doice or savory. Browse our menu
+                    from mid-to-hot, in doice or savory. Browse our menu.
                   </p>
 
                   <div className="flex items-center justify-center mt-4 space-x-5 lg:justify-start">
