@@ -19,7 +19,7 @@ const products = [
     id: 1,
     name: "Accra Beef Traffic Jam",
     href: "#",
-    price: "Starting price GHC 50",
+    price: "Starting price GHC 100",
     imageSrc: AccraTraffic,
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
@@ -35,7 +35,7 @@ const products = [
     id: 2,
     name: "Trinity Tasty Stir",
     href: "#",
-    price: "Starting price GHC 40",
+    price: "Starting price GHC 90",
     imageSrc: Trinity,
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
@@ -51,7 +51,7 @@ const products = [
     id: 3,
     name: "Akora Cucumber Wings",
     href: "#",
-    price: "Starting price GHC 30",
+    price: "Starting price GHC 80",
     imageSrc: Akora,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
@@ -66,7 +66,7 @@ const products = [
     id: 4,
     name: "Biggest Akuapim flying Taste",
     href: "#",
-    price: "Starting price GHC 45",
+    price: "Starting price GHC 95",
     imageSrc: BiggestStick,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -82,7 +82,7 @@ const products = [
     id: 5,
     name: "Akorfa Spicy Veggies",
     href: "#",
-    price: "Starting price GHC 50",
+    price: "Starting price GHC 100",
     imageSrc: Akorfa,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -98,7 +98,7 @@ const products = [
     id: 6,
     name: "Asesewa Market Signature Egg Loaf",
     href: "#",
-    price: "Starting price GHC 30",
+    price: "Starting price GHC 80",
     imageSrc: Asasewa,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -113,7 +113,7 @@ const products = [
     id: 7,
     name: "Wok-Spicy Shrimp Stem",
     href: "#",
-    price: "Starting price GHC 50",
+    price: "Starting price GHC 100",
     imageSrc: Wokspicy,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -129,7 +129,7 @@ const products = [
     id: 8,
     name: "Gold Coast Fashion Stirring",
     href: "#",
-    price: "Starting price GHC 35",
+    price: "Starting price GHC 85",
     imageSrc: GoldCoast,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -145,7 +145,7 @@ const products = [
     id: 9,
     name: "Legon Confidence Corn Sauced",
     href: "#",
-    price: "Starting price GHC 55",
+    price: "Starting price GHC 105",
     imageSrc: Legon,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -160,7 +160,7 @@ const products = [
     id: 10,
     name: "Hot Makola Soup Glaze",
     href: "#",
-    price: "Starting price GHC 25",
+    price: "Starting price GHC 75",
     imageSrc: Markola,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -176,7 +176,7 @@ const products = [
     id: 11,
     name: "Agotime Love 1831.ave",
     href: "#",
-    price: "Starting price GHC 35",
+    price: "Starting price GHC 85",
     imageSrc: Agotime,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -192,7 +192,7 @@ const products = [
     id: 12,
     name: "Olonka Belly Pounced Sausages",
     href: "#",
-    price: "Starting price GHC 30",
+    price: "Starting price GHC 80",
     imageSrc: OlonkaBelly,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -208,7 +208,7 @@ const products = [
     id: 13,
     name: "AFI Chilies Swiss",
     href: "#",
-    price: "Starting price GHC 25",
+    price: "Starting price GHC 75",
     imageSrc: AfiTower,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
